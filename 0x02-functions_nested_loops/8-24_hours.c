@@ -8,11 +8,11 @@
 void jack_bauer(void)
 {
   int hour, minute;
-  for (hour = 0; hour < 25; hour++ )
+  for (hour = 0; hour < 24; hour++ )
     {
-      for (minute = 0; minute < 61; minute++)
+      for (minute = 0; minute < 60; minute++)
 	{
-	  if ((hour != 24) || (minute != 60))
+	  if ((hour != 24) && (minute != 60))
 	    {
 	      _putchar(hour + '0');
 	      _putchar(':');
