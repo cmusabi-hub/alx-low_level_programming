@@ -12,7 +12,7 @@ void times_table(void)
     {
       for (num2 = 0; num2 <=9; num2++)
 	multiply = num1 * num2;
-      if (multipy < 81)
+      if (multiply < 81)
 	{
 	  _putchar(',');
 	  _putchar(' ');
