@@ -2,8 +2,7 @@
 
 /**
  * jack_bauer function that prints every minute of the day of Jack Bauer
- * hour shows the hours
- * min shows the minutes
+ * hour and min show the time from 00:00 to 23:59 then the time resets:
  */
 
 void jack_bauer(void)
