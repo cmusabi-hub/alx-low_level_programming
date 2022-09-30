@@ -7,6 +7,7 @@
 
 void print_to_98(int n)
 {
-	n < 99 (n <= 98)
+	n < 99; 
+	while (n <= 98)
 		printf("%d, \n", n++);
 }
