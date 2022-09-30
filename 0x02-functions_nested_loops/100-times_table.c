@@ -3,7 +3,7 @@
 /**
  * print_times_table - function that prints the n times table, starting with 0
  *
- * n - parameter
+ * n: parameter
  * m: is an integer
  * k: is the second integer
  * mult: is the multiplication of the two integers
@@ -22,12 +22,12 @@ void print_times_table(int n)
 			{
 				_putchar(' ');
 				mult = m * k;
-				if (mult < 10)
+				if (mult <= 9)
 				{
 					_putchar(mult + '0');
 					_putchar(',');
 				}
-				else if (mult < 100)
+				else if (mult <= 99)
 				{
 					_putchar(mult + '0');
 					_putchar((mult % 10) + '0');
