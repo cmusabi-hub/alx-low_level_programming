@@ -13,6 +13,8 @@ void times_table(void)
 	{
 		for (m = 0; m <= 9; m++)
 		{
+			_putchar(',');
+			_putchar(' ');
 			prod = m * n;
 				if (prod < 9){
 					_putchar(prod);
