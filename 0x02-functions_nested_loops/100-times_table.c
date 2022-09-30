@@ -24,11 +24,15 @@ void print_times_table(int n)
 					_putchar(mult + '0');
 					_putchar(',');
 				}
-				else
+				else if (mult < 100)
 				{
 					_putchar(mult + '0');
 					_putchar((mult % 10) + '0');
 				}
+				else
+					_putchar(mult + '0');
+					_putchar((mult / 10) % 10 + '0');
+					_putchar((mult % 10) + '0')
 			}
 			_putchar('\n');
 		}
