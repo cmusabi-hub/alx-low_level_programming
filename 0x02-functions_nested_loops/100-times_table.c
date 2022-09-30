@@ -3,7 +3,7 @@
 /**
  * print_times_table - function that prints the n times table, starting with 0
  *
- * n -  is the integer
+ * n - parameter
  * m: is an integer
  * k: is the second integer
  * mult: is the multiplication of the two integers
