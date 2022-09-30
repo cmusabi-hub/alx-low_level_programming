@@ -13,7 +13,7 @@ int main(void)
 		if ((n % 3) == 0 || (n % 5) == 0)
 		{
 			sum += n;
-			print("%d\n", sum);
+			printf("%d\n", sum);
 		}
 	return (0);
 }
