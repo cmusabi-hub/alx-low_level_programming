@@ -2,7 +2,8 @@
 
 /**
  * add - function that adds two integers @m and @n
- *   
+ * m is the first integer
+ * n is the second integer  
  * return the result of addition
 */
 
