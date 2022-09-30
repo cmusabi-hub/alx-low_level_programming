@@ -20,11 +20,15 @@ void print_times_table(int n)
 				_putchar(' ');
 				mult = m * k;
 				if (mult < 10)
+				{
 					_putchar(mult + '0');
 					_putchar(',');
+				}
 				else
+				{
 					_putchar(mult + '0');
 					_putchar((mult % 10) + '0');
+				}
 			}
 			_putchar('\n');
 		}
