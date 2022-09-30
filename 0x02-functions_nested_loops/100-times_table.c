@@ -24,6 +24,8 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 				mult = m * k;
+				if (result <= 99)
+					_putchar(' ');
 				if (mult <= 9)
 				{
 					_putchar(mult + '0');
