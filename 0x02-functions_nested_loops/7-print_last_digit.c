@@ -1,12 +1,16 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- *function that prints the last digit of a number
- */
+* main - check the code
+*
+* Return: Always 0.
+*/
 
-int print_last_digit(int n)
+int print_last_digit(int c);
 {
-int last_digit = n % 10;
-return (last_digit);
+	int last_digit;
+
+	last_digit = c % 10;
+	return (last_digit);
 }
+
