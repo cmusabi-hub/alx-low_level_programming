@@ -1,8 +1,8 @@
 #include "main.h"
 
-/*jack_bauer prints every minuteof the day from  00:00 to 23:59
+/* jack_bauer prints every minuteof the day from  00:00 to 23:59
  * hour shows the hours
- *min shows the minutes
+ * min shows the minutes
  */
 
 void jack_bauer(void)
@@ -13,7 +13,7 @@ void jack_bauer(void)
 	for (hour = 0; hour < 24; hour++)
 	{
 		for (min = 0; min < 60; min++)
-		{		
+		{
 			_putchar(hour / 10 + '0');
 			_putchar(hour % 10 + '0');
 			_putchar(':');
