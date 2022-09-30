@@ -2,9 +2,9 @@
 
 /**
  * add - function that adds two integers @m and @n
- * m is the first integer
- * n is the second integer  
- * return the result of addition
+ * @m is the first integer
+ * @n is the second integer  
+ * Return the result of addition
 */
 
 int add(int m, int n)
@@ -14,4 +14,3 @@ int add(int m, int n)
 	result = m + n;
 	return (result);
 }
-
