@@ -5,7 +5,7 @@
  * n: is the set parameter
  * sum: addition of the numbers
  * Program that computes and prints the sum of mutiples of 3 or 5 below 1024
- * return : return 0
+ * Return: return 0
  */
 
 int main(void)
