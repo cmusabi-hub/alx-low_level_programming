@@ -29,7 +29,7 @@ char *_strdup(char *str)
 	}
 
 	cpy[len] = '\0';
-	
+
 	return (cpy);
 }
 
