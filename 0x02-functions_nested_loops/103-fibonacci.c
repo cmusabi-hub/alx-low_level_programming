@@ -13,7 +13,7 @@ int main(void)
 
 	for (inc = 0; inc <= 50; inc++)
 	{
-		c = a+b;
+		c = a + b;
 		printf("%lu", c);
 
 		a = b;
