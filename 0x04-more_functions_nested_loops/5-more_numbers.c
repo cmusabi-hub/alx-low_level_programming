@@ -2,7 +2,8 @@
 
 /** more_numbers -  function that prints 10 times 0 - 14
  * @a: is an integer
- * @b is an integer
+ * @b: is an integer
+ * return: returns nothing
  */
 
 void more_numbers(void)
