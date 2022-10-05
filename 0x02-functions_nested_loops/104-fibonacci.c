@@ -2,16 +2,16 @@
 
 /**
  * main  prints the first 98 Fibonacci numbers, starting with 1 and 2
- * 
+ *Fibonacci: finobacci numbers
  * Return: return 0
  */
 
-int main()
+int main(void)
 {
 	int inc;
 	unsigned long a = 0, b = 1, c;
 
-	for ( inc = 0; inc < 98; inc++)
+	for (inc = 0; inc < 98; inc++)
 	{
 		c = a + b;
 
