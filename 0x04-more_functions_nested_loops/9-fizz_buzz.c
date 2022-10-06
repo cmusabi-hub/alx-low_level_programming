@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
+ * main - function that prints,
  * The program is called Fizz-Buzz Test
+ * @i: integer tested
  * test from 1 to 100 multiples of 3 and 5
  */
 
