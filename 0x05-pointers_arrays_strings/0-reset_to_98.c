@@ -2,8 +2,7 @@
 
 /**
  * reset_to_98 - function that takes pointer to an intas parameter
- * @*n:pointer tested
- * return:reset_to_98
+ * @n:pointer tested
  */
 
 void reset_to_98(int *n)
