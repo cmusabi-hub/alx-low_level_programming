@@ -1,3 +1,5 @@
+     
+
 Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
@@ -41,6 +43,7 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
 0. 98 Battery st.
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that takes a pointer to an int as parameter and updates the value it points to to 98.
 
@@ -79,6 +82,7 @@ Repo:
 
 1. Don't swap horses in crossing a stream
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that swaps the values of two integers.
 
@@ -119,6 +123,7 @@ Repo:
 
 2. This report, by its very length, defends itself against the risk of being read
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that returns the length of a string.
 
@@ -158,6 +163,7 @@ Repo:
 
 3. I do not fear computers. I fear the lack of them
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that prints a string, followed by a new line, to stdout.
 
@@ -194,6 +200,7 @@ Repo:
 
 4. I can only go one way. I've not got a reverse gear
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that prints a string, in reverse, followed by a new line.
 
@@ -228,6 +235,7 @@ Repo:
 
 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that reverses a string.
 
@@ -265,6 +273,7 @@ Repo:
 
 6. Half the lies they tell about me aren't true
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that prints every other character of a string, starting with the first character, followed by a new line.
 
@@ -299,6 +308,7 @@ Repo:
 
 7. Winning is only half of it. Having fun is the other half
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that prints half of a string, followed by a new line.
 
@@ -335,6 +345,7 @@ Repo:
 
 8. Arrays are not pointers
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that prints n elements of an array of integers, followed by a new line.
 
@@ -377,6 +388,7 @@ Repo:
 
 9. strcpy
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
     Prototype: char *_strcpy(char *dest, char *src);
 
@@ -419,6 +431,7 @@ Repo:
 
 10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers
 #advanced
+Score: 94.74% (Checks completed: 94.74%)
 
 Write a function that convert a string to an integer.
 
@@ -484,6 +497,7 @@ Repo:
 
 11. Don't hate the hacker, hate the code
 #advanced
+Score: 100.0% (Checks completed: 100.0%)
 
 Create a program that generates random valid passwords for the program 101-crackme.
 
@@ -502,4 +516,5 @@ Repo:
     GitHub repository: alx-low_level_programming
     Directory: 0x05-pointers_arrays_strings
     File: 101-keygen.c
+
 
