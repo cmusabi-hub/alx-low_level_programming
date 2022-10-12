@@ -1,0 +1,17 @@
+#include "main.h"
+#include <string.h>
+
+/**
+ * rev_string - reverse string
+ * @s: string tested
+ */
+
+void rev_string(char *s)
+{
+	int i, len = strlen(s);
+
+	for (i = len; i >= 0; i--)
+	{
+		_putchar(s[i])
+	}
+}
