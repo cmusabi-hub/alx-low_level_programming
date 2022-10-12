@@ -13,6 +13,6 @@ void rev_string(char *s)
 
 	for (i = len - 1; i >= 0; i--)
 	{
-		a = (s[i]);
+		put(s[i]);
 	}
 }
