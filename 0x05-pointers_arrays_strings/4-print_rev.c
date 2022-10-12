@@ -7,12 +7,11 @@
 
 void print_rev(char *s)
 {
-	int i, a = 0;
+	int i;
 
-	for (i = 0; i <= s[a]; i--)
+	for (i = 0; s[i] != '\0'; i--)
 	{
 		_putchar(s[i]);
-		a++;
 	}
 	_putchar('\n');
 }
