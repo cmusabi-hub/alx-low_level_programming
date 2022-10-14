@@ -4,6 +4,7 @@
  * *_strncat - concatenates two srings
  * @dest: destination string
  * @src: source string
+ * @n: amount of bytes used from src
  * Return: return value of dest
  */
 
