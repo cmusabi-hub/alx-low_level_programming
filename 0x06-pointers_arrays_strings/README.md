@@ -38,6 +38,7 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
 0. strcat
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that concatenates two strings.
 
@@ -71,13 +72,13 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-strcat.c -o 0-strcat
-julien@ubuntu:~/0x06$ ./0-strcat 
-Hello 
+julien@ubuntu:~/0x06$ ./0-strcat
+Hello
 World!
 Hello World!
 World!
 Hello World!
-julien@ubuntu:~/0x06$ 
+julien@ubuntu:~/0x06$
 
 Repo:
 
@@ -87,6 +88,7 @@ Repo:
 
 1. strncat
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that concatenates two strings.
 
@@ -126,8 +128,8 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-strncat.c -o 1-strncat
-julien@ubuntu:~/0x06$ ./1-strncat 
-Hello 
+julien@ubuntu:~/0x06$ ./1-strncat
+Hello
 World!
 Hello W
 World!
@@ -135,7 +137,7 @@ Hello W
 Hello WWorld!
 World!
 Hello WWorld!
-julien@ubuntu:~/0x06$ 
+julien@ubuntu:~/0x06$
 
 Repo:
 
@@ -145,6 +147,7 @@ Repo:
 
 2. strncpy
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that copies a string.
 
@@ -196,7 +199,7 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-strncpy.c -o 2-strncpy
-julien@ubuntu:~/0x06$ ./2-strncpy 
+julien@ubuntu:~/0x06$ ./2-strncpy
 *************************************************************************************************
 First********************************************************************************************
 First********************************************************************************************
@@ -212,7 +215,7 @@ First, solve the problem. Then, write the code
 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
 0x2a 0x2a 0x2a 0x2a 0x2a 0x2a 0x2a 0x00
-julien@ubuntu:~/0x06$ 
+julien@ubuntu:~/0x06$
 
 Repo:
 
@@ -222,6 +225,7 @@ Repo:
 
 3. strcmp
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that compares two strings.
 
@@ -250,11 +254,11 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-strcmp.c -o 3-strcmp
-julien@ubuntu:~/0x06$ ./3-strcmp 
+julien@ubuntu:~/0x06$ ./3-strcmp
 -15
 15
 0
-julien@ubuntu:~/0x06$ 
+julien@ubuntu:~/0x06$
 
 Repo:
 
@@ -264,6 +268,7 @@ Repo:
 
 4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that reverses the content of an array of integers.
 
@@ -313,10 +318,10 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-rev_array.c -o 4-rev_array
-julien@ubuntu:~/0x06$ ./4-rev_array 
+julien@ubuntu:~/0x06$ ./4-rev_array
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 98, 1024, 1337
 1337, 1024, 98, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
-julien@ubuntu:~/0x06$ 
+julien@ubuntu:~/0x06$
 
 Repo:
 
@@ -326,6 +331,7 @@ Repo:
 
 5. Always look up
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that changes all lowercase letters of a string to uppercase.
 
@@ -351,10 +357,10 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-string_toupper.c -o 5-string_toupper
-julien@ubuntu:~/0x06$ ./5-string_toupper 
+julien@ubuntu:~/0x06$ ./5-string_toupper
 LOOK UP!
 LOOK UP!
-julien@ubuntu:~/0x06$ 
+julien@ubuntu:~/0x06$
 
 Repo:
 
@@ -364,6 +370,7 @@ Repo:
 
 6. Expect the best. Prepare for the worst. Capitalize on what comes
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that capitalizes all words of a string.
 
@@ -390,12 +397,12 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-main.c 6-cap_string.c -o 6-cap
-julien@ubuntu:~/0x06$ ./6-cap 
+julien@ubuntu:~/0x06$ ./6-cap
 Expect The Best. Prepare For The Worst. Capitalize On What Comes.
 Hello World! Hello-world 0123456hello World Hello World.Hello World
 Expect The Best. Prepare For The Worst. Capitalize On What Comes.
 Hello World! Hello-world 0123456hello World Hello World.Hello World
-julien@ubuntu:~/0x06$ 
+julien@ubuntu:~/0x06$
 
 Repo:
 
@@ -405,6 +412,7 @@ Repo:
 
 7. Mozart composed his music not for the elite, but for everybody
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that encodes a string into 1337.
 
@@ -439,10 +447,10 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-main.c 7-leet.c -o 7-1337
-julien@ubuntu:~/0x06$ ./7-1337 
+julien@ubuntu:~/0x06$ ./7-1337
 3xp3c7 7h3 b3s7. Pr3p4r3 f0r 7h3 w0rs7. C4pi741iz3 0n wh47 c0m3s.
 3xp3c7 7h3 b3s7. Pr3p4r3 f0r 7h3 w0rs7. C4pi741iz3 0n wh47 c0m3s.
-julien@ubuntu:~/0x06$ 
+julien@ubuntu:~/0x06$
 
 Repo:
 
@@ -452,6 +460,7 @@ Repo:
 
 8. rot13
 #advanced
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that encodes a string using rot13.
 
@@ -492,7 +501,7 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-rot13.c -o 100-rot13
-julien@ubuntu:~/0x06$ ./100-rot13 
+julien@ubuntu:~/0x06$ ./100-rot13
 EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
 ------------------------------------
 EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
@@ -504,7 +513,7 @@ ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple letter su
 EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
 ------------------------------------
 EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
-julien@ubuntu:~/0x06$ 
+julien@ubuntu:~/0x06$
 
 Repo:
 
@@ -514,6 +523,7 @@ Repo:
 
 9. Numbers have life; they're not just symbols on paper
 #advanced
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that prints an integer.
 
@@ -546,13 +556,13 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 101-main.c 101-print_number.c -o 101-print_numbers
-julien@ubuntu:~/0x06$ ./101-print_numbers 
+julien@ubuntu:~/0x06$ ./101-print_numbers
 98
 402
 1024
 0
 -98
-julien@ubuntu:~/0x06$ 
+julien@ubuntu:~/0x06$
 
 Repo:
 
@@ -562,6 +572,7 @@ Repo:
 
 10. A dream doesn't become reality through magic; it takes sweat, determination and hard work
 #advanced
+Score: 100.0% (Checks completed: 100.0%)
 
 
 
@@ -585,6 +596,7 @@ Repo:
 
 11. It is the addition of strangeness to beauty that constitutes the romantic character in art
 #advanced
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that adds two numbers.
 
@@ -659,12 +671,12 @@ int main(void)
         return (0);
 }
 julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 103-main.c 103-infinite_add.c -o 103-add
-julien@ubuntu:~/0x06$ ./103-add 
+julien@ubuntu:~/0x06$ ./103-add
 1234567892434574367823574575678477685785645685876876774586734734563456453743756756784458 + 9034790663470697234682914569346259634958693246597324659762347956349265983465962349569346 = 10269358555905271602506489145024737320744338932474201434349082690912722437209719106353804
 Error
 Error
 999999999 + 1 = 1000000000
-julien@ubuntu:~/0x06$ 
+julien@ubuntu:~/0x06$
 
 Repo:
 
@@ -674,6 +686,7 @@ Repo:
 
 12. Noise is a buffer, more effective than cubicles or booth walls
 #advanced
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that prints a buffer.
 
@@ -707,12 +720,12 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 104-main.c 104-print_buffer.c -o 104-buffer
-julien@ubuntu:~/0x06$ ./104-buffer 
+julien@ubuntu:~/0x06$ ./104-buffer
 This is a string!
 ---------------------------------
-00000000: 5468 6973 2069 7320 6120 This is a 
+00000000: 5468 6973 2069 7320 6120 This is a
 0000000a: 7374 7269 6e67 2100 416e string!.An
-00000014: 6420 7468 6973 2069 7320 d this is 
+00000014: 6420 7468 6973 2069 7320 d this is
 0000001e: 7468 6520 7265 7374 206f the rest o
 00000028: 6620 7468 6520 2362 7566 f the #buf
 00000032: 6665 7220 3a29 0102 0304 fer :)....
@@ -720,14 +733,15 @@ This is a string!
 00000046: 0a00 0000 0000 0000 0000 ..........
 00000050: 0000 0000 0000 0000 0000 ..........
 0000005a: 2021 3456 2370 6f69 6e74  !4V#point
-00000064: 6572 7361 7265 6675 6e20 ersarefun 
+00000064: 6572 7361 7265 6675 6e20 ersarefun
 0000006e: 2369 6e66 6572 6e75 6d69 #infernumi
 00000078: 7366 756e 0a00           sfun..
-julien@ubuntu:~/0x06$ 
+julien@ubuntu:~/0x06$
 
 Repo:
 
     GitHub repository: alx-low_level_programming
     Directory: 0x06-pointers_arrays_strings
     File: 104-print_buffer.c
+
 
