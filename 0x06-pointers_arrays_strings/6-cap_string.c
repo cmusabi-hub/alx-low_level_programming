@@ -19,5 +19,5 @@ char *cap_string(char *)
 			s[i] -= 32;
 		}
 	}
-	return (s[i]);
+	return (s[i])
 }
