@@ -7,7 +7,7 @@
  * Return: return value is s
  */
 
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	sep[] = {'\n', '\t',' ',',', ';', '.', '!', '?', '"', '(', ')', '{','}'};
 	int i;
