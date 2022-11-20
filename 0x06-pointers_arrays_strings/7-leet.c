@@ -15,7 +15,7 @@ char *leet(char *s)
 
 	for (; s[a] != '\0'; a++)
 	{
-		if (s[a] == letter[b] || s[a] == letter[b] - 32 && b < 5)
+		if ((s[a] == letter[b] || s[a] == letter[b] - 32) && b < 5)
 		{
 			s[a] =num [b];
 			b++;
