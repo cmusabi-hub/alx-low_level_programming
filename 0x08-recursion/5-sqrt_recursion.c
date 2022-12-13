@@ -21,7 +21,7 @@ int _sqrt_recursion(int n)
  * @root: the root tested
  *
  * Return: If the number has a natural square root - the square root.
- * 	   if the number does not have a natural square root return -1.
+ * if the number does not have a natural square root return -1.
  */
 
 int square_rt(int num, int root)
