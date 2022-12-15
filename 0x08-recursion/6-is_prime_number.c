@@ -10,6 +10,7 @@
 int is_prime_number(int n)
 {
 	int div = 2;
+
 	if (n <= 2)
 	{
 		return (1);
@@ -25,14 +26,14 @@ int is_prime_number(int n)
  * @n: number tested
  * @div: checks the divisibility test of n
  *
- * Returns: the prime number
+ * Returns: the _prime_num
  */
 
 int _prime_num(int n, int div)
 {
 	if (div <= n)
 	{
-		if(n % div == 0)
+		if (n % div == 0)
 		{
 			return (0);
 		}
