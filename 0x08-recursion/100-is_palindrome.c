@@ -9,12 +9,34 @@
 
 int is_palindrome(char *s)
 {
-	if (*s != '\0')
+	int i = 0;
+
+	if (*s != s[length(s) - i])
 	{
-		return (0);
+		return(0);
 	}
 	else
 	{
-		return (1);
+		i++;
+		return (is_palindrome(s + 1));
 	}
+}
+/**
+ * length - prints the length of the string
+ * @s: string tested
+ *
+ * Return: string length i is returned
+ */
+
+int length(char *s)
+{
+	int i = 0;
+
+	if (*s + i)
+	{
+		i++;
+		i += length(s + i);
+	}
+
+	return (i);
 }
