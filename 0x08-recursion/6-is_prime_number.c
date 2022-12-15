@@ -26,7 +26,7 @@ int is_prime_number(int n)
  * @n: number tested
  * @div: checks the divisibility test of n
  *
- * Returns: the _prime_num
+ * Return: the _prime_num
  */
 
 int _prime_num(int n, int div)
