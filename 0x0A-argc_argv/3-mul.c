@@ -3,7 +3,11 @@
 #include <stdlib.h>
 
 /**
- * .
+ * main - multiplies two integer arguments
+ * @argc: argument count
+ * @argv: argument vector
+ *
+ * Return: value of 1 if an error and 0 if successful
  */
 
 int main(int argc, char *argv[])
