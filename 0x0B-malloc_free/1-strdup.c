@@ -23,5 +23,5 @@ char *_strdup(char *str)
 		array = malloc(sizeof(char) * len);
 		array[i] = str[i];
 	}
-	return (str);
+	return (array);
 }
