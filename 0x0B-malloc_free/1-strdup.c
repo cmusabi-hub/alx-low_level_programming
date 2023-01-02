@@ -35,4 +35,5 @@ char *_strdup(char *str)
 	array[len] = '\0';
 	
 	return (array);
+	free(array);
 }
