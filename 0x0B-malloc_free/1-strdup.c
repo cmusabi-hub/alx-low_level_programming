@@ -22,7 +22,7 @@ char *_strdup(char *str)
 		len++;
 	}
 
-	array = malloc(sizeof(char) * len);
+	array = malloc(sizeof(char) * (len + 1));
 
 	if (array == NULL)
 		return (NULL);
@@ -33,7 +33,7 @@ char *_strdup(char *str)
 	}
 
 	array[len] = '\0';
-	
+
 	return (array);
 	free(array);
 }
