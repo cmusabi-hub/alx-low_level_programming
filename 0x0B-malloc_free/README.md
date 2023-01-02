@@ -34,7 +34,7 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
 0. Float like a butterfly, sting like a bee
 mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 Write a function that creates an array of chars, and initializes it with a specific char.
 
 Prototype: char *create_array(unsigned int size, char c);
@@ -113,7 +113,7 @@ File: 0-create_array.c
 
 1. The woman who has no imagination has no wings
 mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
 
 Prototype: char *_strdup(char *str);
@@ -158,7 +158,7 @@ File: 1-strdup.c
 
 2. He who is not courageous enough to take risks will accomplish nothing in life
 mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 Write a function that concatenates two strings.
 
 Prototype: char *str_concat(char *s1, char *s2);
@@ -201,7 +201,7 @@ File: 2-str_concat.c
 
 3. If you even dream of beating me you'd better wake up and apologize
 mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 Write a function that returns a pointer to a 2 dimensional array of integers.
 
 Prototype: int **alloc_grid(int width, int height);
@@ -281,7 +281,7 @@ File: 3-alloc_grid.c
 
 4. It's not bragging if you can back it up
 mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
 
 Prototype: void free_grid(int **grid, int height);
@@ -374,7 +374,7 @@ File: 4-free_grid.c
 
 5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe
 #advanced
-Score: 100.0% (Checks completed: 100.0%)
+
 Write a function that concatenates all the arguments of your program.
 
 Prototype: char *argstostr(int ac, char **av);
@@ -423,7 +423,7 @@ File: 100-argstostr.c
 
 6. I will show you how great I am
 #advanced
-Score: 50.0% (Checks completed: 100.0%)
+
 Write a function that splits a string into words.
 
 Prototype: char **strtow(char *str);
@@ -483,3 +483,4 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x0B-malloc_free
 File: 101-strtow.c
+
