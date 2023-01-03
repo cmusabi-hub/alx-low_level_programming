@@ -10,7 +10,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	char *concat_str;
+	char *string;
 	int index_a, index_b = 0, len = 0;
 
 	if (s1 == NULL)
@@ -20,24 +20,18 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 
 	for (index_a =  0; s1[index_a] || s2[index_a]; index_a++)
-	{
 		len++;
-	}
 
-	concat_str = malloc(sizeof(char) * len);
+	string = malloc(sizeof(char) * len);
 
-	if (concat_str == NULL)
+	if (string == NULL)
 		return (NULL);
 
 	for (index_a = 0; s1[index_a]; index_a++)
-	{
-		concat_str[index_b] = s1[index_a];
-	}
+		string[index_b] = s1[index_a];
 
 	for (index_a = 0; s2[index_a]; index_a++)
-	{
-		concat_str[index_b] = s2[index_a];
-	}
+		string[index_b] = s2[index_a];
 
-	return (concat_str);
+	return (string);
 }
