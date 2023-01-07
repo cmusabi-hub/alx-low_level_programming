@@ -17,7 +17,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	char *filter;
 	unsigned int index;
 
-	if ((meb || size) == 0)
+	if ((mem || size) == 0)
 		return (NULL);
 
 	mem = malloc(size * nmemb);
@@ -28,7 +28,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	filter = mem;
 
 	for (index = 0; index < (size * nmemb); index++)
-		filter[index} = '\0';
+		filter[index] = '\0';
 
 	return (mem);
 }
