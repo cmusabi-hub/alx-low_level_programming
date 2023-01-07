@@ -3,7 +3,7 @@
 
 /**
  * _calloc - Allocates memory for an array of a certain number
- * 	of elements each of an inputted byte size
+ * of elements each of an inputted byte size
  * @nmemb: The number of elements.
  * @size: The byte of each array element
  *
