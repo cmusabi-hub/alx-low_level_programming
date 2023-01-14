@@ -19,6 +19,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	if (name == NULL || age < 0 || owner == NULL)
 		return (NULL);
+	if (dog == NULL)
+		return(NULL);
+
 	for (; name[i]; i++)
 		len_n++;
 
