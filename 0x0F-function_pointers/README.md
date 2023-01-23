@@ -1,42 +1,11 @@
-Learning Objectives
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-General
-
-    What are function pointers and how to use them
-    What does a function pointer exactly hold
-    Where does a function pointer point to in the virtual memory
-
-Copyright - Plagiarism
-
-    You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-    You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-    You are not allowed to publish any content of this project.
-    Any form of plagiarism is strictly forbidden and will result in removal from the program.
-
-Requirements
-General
-
-    Allowed editors: vi, vim, emacs
-    All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-    All your files should end with a new line
-    A README.md file, at the root of the folder of the project is mandatory
-    Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-    You are not allowed to use global variables
-    No more than 5 functions per file
-    The only C standard library functions allowed are malloc, free and exit. Any use of functions like printf, puts, calloc, realloc etc… is forbidden
-    You are allowed to use _putchar
-    You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
-    In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-    The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called function_pointers.h
-    Don’t forget to push your header file
-    All your header files should be include guarded
 
 Quiz questions
 Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
 0. What's my name
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that prints a name.
 
@@ -96,10 +65,10 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_name.c -o a
-julien@ubuntu:~/0x0e. Function pointers$ ./a 
+julien@ubuntu:~/0x0e. Function pointers$ ./a
 Hello, my name is Bob
 Hello, my uppercase name is BOB DYLAN
-julien@ubuntu:~/0x0e. Function pointers$ 
+julien@ubuntu:~/0x0e. Function pointers$
 
 Repo:
 
@@ -109,6 +78,7 @@ Repo:
 
 1. If you spend too much time thinking about a thing, you'll never get it done
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that executes a function given as a parameter on each element of an array.
 
@@ -156,7 +126,7 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-array_iterator.c -o b
-julien@ubuntu:~/0x0e. Function pointers$ ./b 
+julien@ubuntu:~/0x0e. Function pointers$ ./b
 0
 98
 402
@@ -167,7 +137,7 @@ julien@ubuntu:~/0x0e. Function pointers$ ./b
 0x192
 0x400
 0x1000
-julien@ubuntu:~//0x0e. Function pointers$ 
+julien@ubuntu:~//0x0e. Function pointers$
 
 Repo:
 
@@ -177,6 +147,7 @@ Repo:
 
 2. To hell with circumstances; I create opportunities
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a function that searches for an integer.
 
@@ -244,11 +215,11 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-int_index.c -o c
-julien@ubuntu:~/0x0e. Function pointers$ ./c 
+julien@ubuntu:~/0x0e. Function pointers$ ./c
 2
 1
 2
-julien@ubuntu:~/0x0e. Function pointers$ 
+julien@ubuntu:~/0x0e. Function pointers$
 
 Repo:
 
@@ -258,6 +229,7 @@ Repo:
 
 3. A goal is not always meant to be reached, it often serves simply as something to aim at
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a program that performs simple operations.
 
@@ -357,7 +329,7 @@ julien@ubuntu:~/0x0e. Function pointers$ ./calc 1024 - 98
 926
 julien@ubuntu:~/0x0e. Function pointers$ ./calc 1024 '%' 98
 44
-julien@ubuntu:~/0x0e. Function pointers$ 
+julien@ubuntu:~/0x0e. Function pointers$
 
 Repo:
 
@@ -367,6 +339,7 @@ Repo:
 
 4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker
 #advanced
+Score: 100.0% (Checks completed: 100.0%)
 
 Write a program that prints the opcodes of its own main function.
 
@@ -399,14 +372,14 @@ julien@ubuntu:~/0x0e. Function pointers$ objdump -d -j.text -M intel main
   400609:   74 14                   je     40061f <main+0x29>
 [...]
 julien@ubuntu:~/0x0e. Function pointers$ ./main 21 | udcli -64 -x -o 4005f6
-00000000004005f6 55               push rbp                
-00000000004005f7 4889e5           mov rbp, rsp            
-00000000004005fa 4883ec30         sub rsp, 0x30           
-00000000004005fe 897ddc           mov [rbp-0x24], edi     
-0000000000400601 488975d0         mov [rbp-0x30], rsi     
+00000000004005f6 55               push rbp
+00000000004005f7 4889e5           mov rbp, rsp
+00000000004005fa 4883ec30         sub rsp, 0x30
+00000000004005fe 897ddc           mov [rbp-0x24], edi
+0000000000400601 488975d0         mov [rbp-0x30], rsi
 0000000000400605 837ddc02         cmp dword [rbp-0x24], 0x2
-0000000000400609 7414             jz 0x40061f             
-julien@ubuntu:~/0x0e. Function pointers$ 
+0000000000400609 7414             jz 0x40061f
+julien@ubuntu:~/0x0e. Function pointers$
 
     Note 0: je is equivalent to jz
     Note 1: depending on how you write your main function, and on which machine you compile your program, the opcodes (and by extension the assembly code) might be different than the above example
