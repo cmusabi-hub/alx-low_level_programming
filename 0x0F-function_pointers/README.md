@@ -5,7 +5,7 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
 0. What's my name
 mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 
 Write a function that prints a name.
 
@@ -78,7 +78,7 @@ Repo:
 
 1. If you spend too much time thinking about a thing, you'll never get it done
 mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 
 Write a function that executes a function given as a parameter on each element of an array.
 
@@ -147,7 +147,7 @@ Repo:
 
 2. To hell with circumstances; I create opportunities
 mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 
 Write a function that searches for an integer.
 
@@ -229,7 +229,7 @@ Repo:
 
 3. A goal is not always meant to be reached, it often serves simply as something to aim at
 mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 
 Write a program that performs simple operations.
 
@@ -339,7 +339,7 @@ Repo:
 
 4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker
 #advanced
-Score: 100.0% (Checks completed: 100.0%)
+
 
 Write a program that prints the opcodes of its own main function.
 
