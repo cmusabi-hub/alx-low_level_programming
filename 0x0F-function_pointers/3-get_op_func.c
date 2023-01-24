@@ -17,5 +17,13 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{"NULL", NULL},
 	};
-	int i;
+	int i = 0;
+
+	for (; i < 6; i++)
+	{
+		if (s == (ops[i]).op)
+			break;
+		i++;
+	}
+	return (ops[i].f);
 }
