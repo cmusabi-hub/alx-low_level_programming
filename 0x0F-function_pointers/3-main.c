@@ -6,7 +6,7 @@
  * @num2: second integer
  * @operator: operation to be executed
  *
- * Return: result of the arguments
+ * Return: 0 if it is successfull
  */
 
 int main (int argc, char *argv[])
@@ -25,9 +25,14 @@ int main (int argc, char *argv[])
 	num2 = atoi(argv[3]);
 	f = get_op_func(argv[2]);
 
+	if (f == NULL)
+	{
+		printf("Error\n");
+		exit(99);
+	}
+
 	sum = f(num1, num2);
 	printf("%d\n", sum);
-
 	return (0);
 }
 
