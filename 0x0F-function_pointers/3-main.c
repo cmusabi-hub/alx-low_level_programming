@@ -11,16 +11,15 @@
 
 int main (int argc, char *argv[])
 {
-	int i = 0;
-	char num1, (*operator), num2;
 
-	oprator = 
+	int  num1, num2, sum;
+	int (*f)(int, int);
 
-	for (; i < argc; i++)
-	{
-		arg[1] = atoi(num1);
-		argv[2] = atoi(operator);
-		argv[3] = atoi(num2);
-	}
-	return (num1 operator  num2)
+	arg[1] = atoi(num1);
+	argv[3] = atoi(num2);
+
+	sum = f(num1, num2);
+
+	return (0);
 }
+
