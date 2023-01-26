@@ -6,7 +6,7 @@
  * main - main function
  * @num1: first integer
  * @num2: second integer
- * @operator: operation to be executed
+ * @result: operation to be executed
  *
  * Return: 0 if it is successfull
  */
