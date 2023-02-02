@@ -11,7 +11,7 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int n = 0, sum = 0;
+	unsigned int i = 0, sum = 0;
 
 	va_list ap;
 
@@ -23,5 +23,5 @@ int sum_them_all(const unsigned int n, ...)
 	}
 	va_end(ap);
 
-	return val;
+	return (sum);
 }
