@@ -3,7 +3,7 @@
 #include <stdarg.h>
 #include <stdlib.h>
 /**
- * print_numbers - prints numbers followe by a new line
+ * print_numbers - prints numbers followed by a new line
  * @separator: is , character
  * @n: argument parameters
  * Return: void
@@ -23,7 +23,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		num = va_arg(valist, int);
 		printf("%d", num);
 		if (i < (n - 1))
-			printf("%d%s ", n, separator);
+			printf("%s ", separator);
 	}
 	printf("\n");
 	va_end(valist);
