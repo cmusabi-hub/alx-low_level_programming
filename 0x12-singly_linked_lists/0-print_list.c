@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 /**
  * print_list - prints all the elements of a list_t
  * @h: list to be printed
