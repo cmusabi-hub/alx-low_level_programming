@@ -6,7 +6,6 @@
 /**
  * print_list - prints all the elements of a list_t
  * @h: list to be printed
- * @list_t: struct type
  * Return: number of nodes
  * if str is NULL, print [0] (nil)
  */
