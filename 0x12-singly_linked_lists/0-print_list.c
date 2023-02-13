@@ -6,8 +6,7 @@
 /**
  * print_list - prints all the elements of a list_t
  * @h: list to be printed
- * Return: number of nodes
- * if str is NULL, print [0] (nil)
+ * Return: number of nodes, if str is NULL, print [0] (nil)
  */
 
 size_t print_list(const list_t *h)
@@ -16,11 +15,11 @@ size_t print_list(const list_t *h)
 
 	for (node = 0; h != NULL; node++)
 	{
-		if (h->str == NULL)
+		if (h -> str == NULL)
 			printf("[0] (nil)\n");
 		else
-			printf("[%u] %s\n", h->len, h->str );
-		h = h->next;
+			printf("[%u] %s\n", h -> len, h -> str );
+		h = h -> next;
 	}
 	return (node);
 }
