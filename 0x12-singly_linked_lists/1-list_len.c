@@ -15,7 +15,6 @@ size_t list_len(const list_t *h)
 
 	for (; h != NULL; node++)
 	{
-		printf ("-> %li elements", node);
 		h = h ->next;
 	}
 
