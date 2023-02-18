@@ -12,18 +12,25 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-	unsigned int len;
+	unsigned int len = 0;
 	list_t  *newnode;
-	char source = strup(str);
+	char *source;
+	source = strdup(str);
 
 	newnode = (struct list_t *)malloc(sizeof(list_t));
-	head = newnode;
+	for (; str[len]; len++)
+		;
 
-	for (; head != NULL; i++)
+	if (newnode == NULL)
+		return (NULL);
+	else
 	{
 		newnode -> str = source;
-		newnode ->next = head;
-		head = newnode;
+		newnode -> len = len;
+		newnode -> next = *head;
+
+		*head = newnode;
 	}
+
 	return (head);
 }
