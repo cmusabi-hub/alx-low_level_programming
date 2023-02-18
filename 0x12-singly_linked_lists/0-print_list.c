@@ -10,3 +10,13 @@
  * if str == NULL, print [0] (nil)
  */
 
+size_t print_list(const list_t *h)
+{
+	size_t node;
+
+	for (node = 0; h != NULL; node++)
+	{
+		printf("[%i] %s\n", h->len, h->str);
+	}
+	return (node++);
+}
