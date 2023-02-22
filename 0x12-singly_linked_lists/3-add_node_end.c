@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * add_node - adds new node at the end of a list
+ * add_node_end - adds new node at the end of a list
  * @str: string to be pointed to
  * @head: pointer to the address copied
  * Return: address of new element or Null if fails
