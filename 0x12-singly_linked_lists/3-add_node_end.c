@@ -13,21 +13,24 @@
 list_t *add_node_end(list_t **head, const char *str)
 {
 	unsigned int len = 0;
-	list *newnode, *traverse;
+	list_t *newnode, *traverse;
 	newnode = malloc(sizeof(list_t));
-	*head = newnode;
 
-	for (; str(len); len++)
+	for (; str[len]; len++)
 		;
-	if (head == NULL)
-		return (NULL);
+
+	newnode -> str = strdup(str);
+	newnode -> len = len;
+	newnode -> next = NULL;
+
+	if (*head == NULL)
+		*head = newnode;
 	else
 	{
 		traverse = *head;
-		newnode -> str = strdup(str);
-		newnode -> len = len;
-		newnode -> next = NULL;
-		traverse = traverse -> next;
+		while (traverse -> next != NULL)
+			traverse = traverse -> next;
+		traverse -> next = newnode;
 	}
 	return (*head);
 }
