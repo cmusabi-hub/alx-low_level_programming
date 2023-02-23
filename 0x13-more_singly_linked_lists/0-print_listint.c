@@ -14,11 +14,11 @@ size_t print_listint(const listint_t *h)
 	size_t node = 0;
 	listint_t *new;
 
-	new = head;
 	for (; new != NULL; node++)
 	{
 		printf("%d", new->n);
 		new = new->next;
+		new = head;
 	}
 	return(node);
 }
