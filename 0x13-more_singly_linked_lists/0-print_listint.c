@@ -13,6 +13,12 @@
 size_t print_listint(const listint_t *h)
 {
 	size_t _node = 0;
+	
+	if (h == NULL)
+	{
+		printf("Error\n");
+		return (1);
+	}
 
 	for (;h != NULL; _node++)
 	{
