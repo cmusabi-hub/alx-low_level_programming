@@ -28,7 +28,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		while (traverse->next != NULL)
 		{
 			traverse = traverse->next;
-			rtraverse->next = newnode;
+			traverse->next = newnode;
 		}
 	}
 	return (*head);
