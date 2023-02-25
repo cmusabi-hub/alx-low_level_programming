@@ -11,9 +11,13 @@
 
 void free_listint(listint_t *head)
 {
-	if (head != NULL)
+	listint_t *traverse;
+
+	while (head != NULL)
 	{
+		traverse = head->next;
 		free(head->n);
 		free(head);
+		head = traverse;
 	}
 }
