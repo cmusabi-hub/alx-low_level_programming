@@ -13,6 +13,9 @@ void free_listint(listint_t *head)
 {
 	listint_t *traverse;
 
+	if (head == NULL)
+		return;
+
 	while (head != NULL)
 	{
 		traverse = head->next;
