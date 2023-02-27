@@ -13,6 +13,9 @@ int pop_listint(listint_t **head)
 {
 	listint_t *traverse;
 
+	if (head == NULL)
+		return (0);
+
 	while (head)
 	{
 		traverse = *head;
