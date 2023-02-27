@@ -11,6 +11,7 @@
 
 int pop_listint(listint_t **head)
 {
+	int n;
 	listint_t *traverse;
 
 	if (head == NULL)
@@ -18,7 +19,8 @@ int pop_listint(listint_t **head)
 
 	traverse = *head;
 	*head = (*head)->next;
+	n = (*head)->n;
 	free(traverse);
 
-	return ((*head)->n);
+	return (n);
 }
