@@ -11,4 +11,13 @@
 
 int pop_listint(listint_t **head)
 {
+	listint_t *traverse;
+
+	while (head)
+	{
+		traverse = *head;
+		head = head->next;
+		free(traverse);
+	}
+	return ((*head)->n);
 }
