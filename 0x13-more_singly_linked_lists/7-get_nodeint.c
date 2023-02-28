@@ -9,4 +9,6 @@
  * @index: index of the node
  * Return: nth node and NULL if node does exist
  */
-
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+{
+}
