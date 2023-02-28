@@ -10,8 +10,18 @@
  */
 int sum_listint(listint_t *head)
 {
-	unsigned int i = 0;
+	unsigned int sum = 0;
+	int i = 0;
 	
 	if (head == NULL)
 		return (0);
+	else
+	{
+		for (;head != NULL; i++)
+		{
+			sum += head->n;
+			head = head->next;
+		}
+		return (sum);
+	}
 }
