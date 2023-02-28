@@ -30,7 +30,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		return (newnode);
 	}
 	
-	for (; traverse != NULL && i < idx; i++ )
+	for (; traverse != NULL && i < (idx - 1); i++ )
 	{
 		traverse = traverse->next;
 	}
