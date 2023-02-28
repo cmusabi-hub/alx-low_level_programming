@@ -15,13 +15,10 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	int j;
 	listint_t *traverse;
 
-	for (; head != NULL; i++)
+	for (; head != NULL && i < index; i++)
 	{
 		traverse = head;
 		traverse = traverse->next;
-		traverse->n = j;
-		if (i == index)
-			break;
 	}
-	return (j);
+	return (traverse);
 }
