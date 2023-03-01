@@ -24,7 +24,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		if (traverse == NULL || traverse->next == NULL)
 			return (-1);
 		traverse->next = nextnode;
-		traverse-next = nextnode->next;
+		traverse->next = nextnode->next;
 		i++;
 		free(nextnode);
 	}
