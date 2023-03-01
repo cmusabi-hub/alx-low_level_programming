@@ -1,0 +1,13 @@
+#include "lists.h"
+#include <stdio.h>
+#include <string>
+#include <stdlib.h>
+
+/**
+ * delete_nodeint_at_index - deletes node at index of a list.
+ * @index: index of the node that should be deleted and it starts with 0
+ * Return: 1 if it succeeded, -1 if it failed
+ */
+int delete_nodeint_at_index(listint_t **head, unsigned int index)
+{
+}
