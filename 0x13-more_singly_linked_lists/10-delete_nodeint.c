@@ -18,7 +18,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 	nextnode = malloc(sizeof(listint_t));
 	if (nextnode == NULL)
-		return (NULL);
+		return (-1);
 	while (i < (index - 1))
 	{
 		if (traverse == NULL || traverse->next == NULL)
