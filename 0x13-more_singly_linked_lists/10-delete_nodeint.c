@@ -32,7 +32,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		traverse = traverse->next;
 		i++;
 	}
-	traverse->next = nextnode;
+	nextnode = traverse->next;
 	traverse->next = nextnode->next;
 	free(nextnode);
 	return (1);
