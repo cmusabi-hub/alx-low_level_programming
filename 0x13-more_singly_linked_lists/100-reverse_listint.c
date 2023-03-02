@@ -8,5 +8,6 @@
  * @head: pointer to the head of the list.
  * Return: returns pointer to the first node of the reversed list
  */
-
-
+listint_t *reverse_listint(listint_t **head)
+{
+}
