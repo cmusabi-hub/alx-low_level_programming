@@ -16,16 +16,24 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 	traverse = *head;
 
+	if (index == 0)
+	{
+		*head = (*head)->next;
+		free(traverse);
+		return (1);
+	}
+
 	if (traverse == NULL)
 		return (-1);
 	while (i < (index - 1))
 	{
-		if (traverse == NULL || traverse->next == NULL)
+		if (traverse->next == NULL)
 			return (-1);
-		traverse->next = nextnode;
-		traverse->next = nextnode->next;
-		i++;
-		free(nextnode);
+		traverse = traverse->next;
+		i++
 	}
+	traverse->next = nextnode;
+	traverse->next = nextnode->next;
+	free(nextnode);
 	return (1);
 }
