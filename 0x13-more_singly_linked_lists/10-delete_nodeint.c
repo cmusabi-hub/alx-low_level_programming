@@ -30,7 +30,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		if (traverse->next == NULL)
 			return (-1);
 		traverse = traverse->next;
-		i++
+		i++;
 	}
 	traverse->next = nextnode;
 	traverse->next = nextnode->next;
