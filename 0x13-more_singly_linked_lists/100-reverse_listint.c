@@ -13,8 +13,10 @@ listint_t *reverse_listint(listint_t **head)
 	listint_t *prevnode = NULL, *traversenode;
 
 	traversenode = *head;
-	if (*head == NULL)
+	if (*head == NULL || head == NULL)
 		return (NULL);
+	if ((*head)->next == NULL)
+		return (*head);
 
 	while (traversenode->next != NULL)
 	{
