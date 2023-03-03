@@ -16,10 +16,11 @@ listint_t *reverse_listint(listint_t **head)
 		return (NULL);
 	if ((*head)->next == NULL)
 		return (*head);
+	*head = traversenode;
 
-	while (*head != NULL)
+	while (traversenode->next != NULL)
 	{
-		traversenode = (*head)->next;
+		traversenode = traversenode->next;
 		(*head)->next = prevnode;
 		prevnode = *head;
 		*head = traversenode;
