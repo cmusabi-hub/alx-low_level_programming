@@ -21,7 +21,7 @@ size_t print_listint_safe(const listint_t *head)
 	while (head)
 	{
 		traverse = traverse->next;
-		node++
+		node++;
 	}
 	return (node);
 }
