@@ -13,13 +13,14 @@
 size_t print_listint_safe(const listint_t *head)
 {
 	int node = 0;
-	listint_t *traverse = *head;
+	listint_t *traverse;
 
 	if (head == NULL)
 		exit (98);
 
 	while (head)
 	{
+		head = traverse;
 		traverse = traverse->next;
 		node++;
 	}
