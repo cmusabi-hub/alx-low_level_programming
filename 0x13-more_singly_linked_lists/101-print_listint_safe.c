@@ -12,7 +12,7 @@
 
 size_t print_listint_safe(const listint_t *head)
 {
-	int node = 0;
+	size_t node = 0;
 	listint_t *traverse;
 
 	if (head == NULL)
@@ -21,6 +21,7 @@ size_t print_listint_safe(const listint_t *head)
 	while (head)
 	{
 		head = traverse;
+		printf ("%d\n", traverse->n);
 		traverse = traverse->next;
 		node++;
 	}
