@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * source_0 - Source 0
+ * source_1 - Source 1
  * Return: Always 0
  */
-int source_0(void)
+int source_1(void)
 {
 	return (0);
 }
