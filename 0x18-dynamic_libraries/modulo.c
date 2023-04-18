@@ -4,7 +4,7 @@
  * mod - remainder of a / b
  */
 
-mod(a, b)
+int mod(int a, int b)
 {
 	return (a % b);
 }
