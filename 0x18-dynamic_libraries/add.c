@@ -3,7 +3,7 @@
 /**
  * add - adds number\
  */
-add(a, b)
+int add(int a, int b)
 {
 	return (a + b);
 }
