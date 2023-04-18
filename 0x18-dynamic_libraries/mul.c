@@ -3,7 +3,7 @@
 /**
  * mul - multiplies
  */
-mul(a, b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
