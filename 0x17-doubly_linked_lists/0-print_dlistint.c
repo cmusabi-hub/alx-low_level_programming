@@ -15,12 +15,12 @@ size_t print_dlistint(const dlistint_t *h)
 	if (h == NULL)
 		return (node);
 
-	for (;h != NULL; h = h->next)
+	while (h)
 	{
+		node++;
 		printf("%d\n", h->n);
-		node++
+		h = h->next;
 	}
 	return (node);
-		
 }
 
