@@ -14,6 +14,10 @@ size_t print_dlistint(const dlistint_t *h)
 	head = h;
 
 	for (;head != NULL;node++)
+	{
 		printf(head->n);
-		;
+		head->next = h;
+	}
+	return (node);
+		
 }
