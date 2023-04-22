@@ -9,7 +9,7 @@
 int sum_dlistint(dlistint_t *head)
 {
 	dlistint_t *temp = head;
-	int sum = 0, node  = 0, num = temp->n;
+	int sum = 0, node  = 0;
 
 	if (head == NULL)
 		return (0);
@@ -17,7 +17,7 @@ int sum_dlistint(dlistint_t *head)
 	for (; temp != NULL; node++)
 	{
 		temp = temp->next;
-		sum += num;
+		sum += temp->n;
 	}
 	return (sum);
 }
