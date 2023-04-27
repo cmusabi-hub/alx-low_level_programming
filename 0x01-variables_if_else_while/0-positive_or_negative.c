@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main:main function
+ * main - main function
  * @n: integer to be tested
- * Return: is 0
+ * Return: is 0 for success
  */
 
 int main(void)
