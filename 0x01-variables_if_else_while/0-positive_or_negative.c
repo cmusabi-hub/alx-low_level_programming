@@ -4,7 +4,6 @@
 
 /**
  * main - main function
- * @n: integer to be tested
  * Return: is 0 for success
  */
 
