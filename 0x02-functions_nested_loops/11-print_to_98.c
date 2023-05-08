@@ -31,10 +31,15 @@ void print_to_98(int n)
 			if (i < 10)
 			{
 				_putchar('0' + i);
-				if (i < -9)
+			}
+			else if (i < 0)
+			{
+				_putchar('-');
+				if (i <= -10)
 				{
-					_putchar('0' + (i / 10));
-					_putchar('0' + (i % 10));
+					_putchar('0' - (i / 10));
+					_putchar('0' - (i % 10));
+
 				}
 			}
 			else
