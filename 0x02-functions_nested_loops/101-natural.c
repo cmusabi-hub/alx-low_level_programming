@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - main function
@@ -7,16 +8,16 @@
 
 int main(void)
 {
-	int sum, i;
+	int sum = 0, i;
 
 	for (i = 0; i < 1024; i++)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 		{
-			sum + i;
+			sum += i;
 		}
 	}
-	_putchar('0' + sum);
+	printf("%d\n", sum);
 	return (0);
 }
 
