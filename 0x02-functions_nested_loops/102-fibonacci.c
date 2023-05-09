@@ -7,15 +7,17 @@
 
 int main(void)
 {
-	int a = 0, b = 1, sum;
+	int a = 0, b = 1, n = 0, sum;
 
-	while (b < 50)
+	while (n < 50)
 	{
 		sum = a + b;
+		printf("%d", a);
+		n < 49 ? printf(", ") : printf("\n");
 		a = b;
 		b = sum;
+		n++;
 	}
-	printf("%d\n", sum);
 	return (0);
 }
 
