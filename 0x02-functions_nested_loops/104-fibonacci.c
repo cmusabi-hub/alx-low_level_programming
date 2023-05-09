@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	int n = 98, i, fib[n];
+	int n = 98, i;
+	int fib[n];
 
 	fib[0] = 1;
 	fib[1] = 2;
@@ -17,5 +18,6 @@ int main(void)
 		fib[i] = fib[i - 2] + fib[i - 1];
 	}
 	printf("%d\n", fib[n - 1]);
+	return (0);
 }
 
