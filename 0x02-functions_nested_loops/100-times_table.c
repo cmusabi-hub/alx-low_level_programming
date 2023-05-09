@@ -2,6 +2,7 @@
 
 /**
  * print_times_table - prints n times time table
+ * @n: number times table
  * Return: void
  */
 
@@ -9,7 +10,7 @@ void print_times_table(int n)
 {
 	int i, j, mult;
 
-	if (n >= 0 && n <= 15 )
+	if (n >= 0 && n <= 15)
 	{
 		for (i = 0; i <= n; i++)
 		{
@@ -20,10 +21,10 @@ void print_times_table(int n)
 				if (mult < 10)
 				{
 					_putchar('0' + mult);
-					if (j < n)
-					{
+				       	if (j < n)
+					{ 
 						_putchar(',');
-						_putchar(' ');
+					       	_putchar(' ');
 					}
 				}
 				else if (mult < 100)
@@ -38,7 +39,7 @@ void print_times_table(int n)
 				}
 				else
 				{
-					_putchar('0' + mult /100);
+					_putchar('0' + mult / 100);
 					_putchar('0' + (mult / 10) % 10);
 					_putchar('0' + mult % 10);
 					if (j < n)
