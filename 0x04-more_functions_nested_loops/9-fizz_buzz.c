@@ -3,7 +3,6 @@
 
 /**
  * main - Fizz Buzz program
- * @i: integer tested
  * Return: 0 for success
  */
 
