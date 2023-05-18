@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - changes lowercase to uppercase
- * @_sting: string to be tested
+ * @_string: string to be tested
  * Return: coverted _string
  */
 
