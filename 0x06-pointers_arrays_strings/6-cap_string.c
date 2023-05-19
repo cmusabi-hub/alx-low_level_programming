@@ -14,12 +14,12 @@ char *cap_string(char *_string)
 	for (index = 0; _string[index] != '\0'; index++)
 	{
 		if (_string[index] == separator[index])
-			continue;
-		else if (_string[index] >= 'a' && _string[index] <= 'z')
-			_string[index] -= 32;
-		else
-			continue;
+		{
+			if (_string[index + 1] >= 'a' && _string[index + 1] <= 'z')
+				_string[index + 1] -= 32;
+		}
 	}
+		
 	return (_string);
 }
 
