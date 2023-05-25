@@ -1,20 +1,3 @@
-
-0x08. C - Recursion
-C
-Recursion
- By: Julien Barbier
- Weight: 1
- Project over - took place from Sep 28, 2022 6:00 AM to Sep 29, 2022 6:00 AM
- An auto review will be launched at the deadline
-
-Resources
-Read or watch:
-
-0x08. Recursion, introduction
-What on Earth is Recursion?
-C - Recursion
-C Programming Tutorial 85, Recursion pt.1
-C Programming Tutorial 86, Recursion pt.2
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
@@ -50,7 +33,6 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
 0. She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget
 mandatory
-Score: 90.0% (Checks completed: 100.0%)
 Write a function that prints a string, followed by a new line.
 
 Prototype: void _puts_recursion(char *s);
@@ -81,7 +63,6 @@ File: 0-puts_recursion.c
     
 1. Why is it so important to dream? Because, in my dreams we are together
 mandatory
-Score: 90.0% (Checks completed: 100.0%)
 Write a function that prints a string in reverse.
 
 Prototype: void _print_rev_recursion(char *s);
@@ -110,7 +91,6 @@ File: 1-print_rev_recursion.c
     
 2. Dreams feel real while we're in them. It's only when we wake up that we realize something was actually strange
 mandatory
-Score: 90.0% (Checks completed: 100.0%)
 Write a function that returns the length of a string.
 
 Prototype: int _strlen_recursion(char *s);
@@ -145,7 +125,6 @@ File: 2-strlen_recursion.c
     
 3. You mustn't be afraid to dream a little bigger, darling
 mandatory
-Score: 90.0% (Checks completed: 100.0%)
 Write a function that returns the factorial of a given number.
 
 Prototype: int factorial(int n);
@@ -189,7 +168,6 @@ File: 3-factorial.c
     
 4. Once an idea has taken hold of the brain it's almost impossible to eradicate
 mandatory
-Score: 65.0% (Checks completed: 100.0%)
 Write a function that returns the value of x raised to the power of y.
 
 Prototype: int _pow_recursion(int x, int y);
@@ -240,7 +218,6 @@ File: 4-pow_recursion.c
     
 5. Your subconscious is looking for the dreamer
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a function that returns the natural square root of a number.
 
 Prototype: int _sqrt_recursion(int n);
@@ -288,10 +265,9 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x08-recursion
 File: 5-sqrt_recursion.c
-     
+    
 6. Inception. Is it possible?
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a function that returns 1 if the input integer is a prime number, otherwise return 0.
 
 Prototype: int is_prime_number(int n);
@@ -342,10 +318,9 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x08-recursion
 File: 6-is_prime_number.c
-     
+    
 7. They say we only use a fraction of our brain's true potential. Now that's when we're awake. When we're asleep, we can do almost anything
 #advanced
-Score: 0.0% (Checks completed: 0.0%)
 Write a function that returns 1 if a string is a palindrome and 0 if not.
 
 Prototype: int is_palindrome(char *s);
@@ -388,7 +363,6 @@ File: 100-is_palindrome.c
      
 8. Inception. Now, before you bother telling me it's impossible...
 #advanced
-Score: 97.94% (Checks completed: 100.0%)
 Write a function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0.
 
 Prototype: int wildcmp(char *s1, char *s2);
@@ -453,5 +427,3 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x08-recursion
 File: 101-wildcmp.c
-    
-Copyright © 2022 ALX, All rights reserved.
