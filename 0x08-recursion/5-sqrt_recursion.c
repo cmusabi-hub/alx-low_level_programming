@@ -6,9 +6,17 @@
  * Return: square root of number or -1 if it does not have a square root
  */
 
+/**
+ * sqr_root - gets the root by increamenting m
+ * @n: number tested
+ * @m: square root number
+ * Return: squareroot
+ */
+
 int _sqrt_recursion(int n)
 {
 	int i = 1;
+
 	return (sqr_root(n, i));
 }
 
