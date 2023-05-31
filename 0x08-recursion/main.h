@@ -13,5 +13,6 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int sqr_root(int n, int m);
 int prime_num(int n, int m);
+int palindrome_num(char *s, int start, int end);
 
 #endif /*_MAIN_H_*/
