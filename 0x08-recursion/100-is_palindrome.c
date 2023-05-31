@@ -14,10 +14,18 @@ int is_palindrome(char *s)
 	return (palindrome_num(s, start, end));
 }
 
+/**
+ * palindrome_num - returns palindrome number
+ * @s: string
+ * @start: start of string
+ * @end: end of string
+ * Return: 1 if palindrome or 0 if not
+ */
+
 int palindrome_num(char *s, int start, int end)
 {
 	if (start >= end)
-		return(1);
+		return (1);
 	if (s[start] == s[end])
 		return (palindrome_num(s, ++start, --end));
 	else
