@@ -3,6 +3,8 @@
 
 /**
  * main - program that takes arguments
+ * @argv: argument vector
+ * @argc: argument count
  * Return: 0 for success
  */
 
