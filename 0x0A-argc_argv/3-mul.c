@@ -6,7 +6,7 @@
  * main - main function
  * @argv: argument vector
  * @argc: argument count
- * Return: 0 for success
+ * Return: 0 for success 1 for fail
  */
 
 int main(int argc, char *argv[])
