@@ -23,8 +23,8 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		if (argc != 3)
-			printf("Error\n");
+		printf("Error\n");
+		return (1);
 	}
 	return (0);
 }
