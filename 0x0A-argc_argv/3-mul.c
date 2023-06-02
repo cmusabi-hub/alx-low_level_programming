@@ -19,11 +19,12 @@ int main(int argc, char *argv[])
 		{
 			mult *= atoi(argv[i]);
 		}
-		printf("%d\n", mult);
-		
+		printf("%d\n", mult);	
 	}
 	else
+	{
 		printf("Error\n");
+	}
 	return (0);
 }
 
