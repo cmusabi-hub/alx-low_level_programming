@@ -3,6 +3,8 @@
 
 /**
  * main - main function
+ * @argv: argument vector
+ * @argc: argument count
  * Return: 0 for success
  */
 
