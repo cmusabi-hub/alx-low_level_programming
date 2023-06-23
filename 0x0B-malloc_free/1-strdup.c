@@ -13,6 +13,9 @@ char *_strdup(char *str)
 {
 	size_t i;
 	char *stri_ng;
+	
+	if (str == NULL)
+		return(NULL);
 
 	stri_ng = malloc(sizeof(char) * (strlen(str)));
 
