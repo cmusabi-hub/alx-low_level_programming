@@ -19,7 +19,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (nmemb <= 0 || size <= 0)
 		return (NULL);
 	if (arr != NULL)
-		memset(arr, 0, nmemb);
+		memset(arr, 0, nmemb * sizeof(int));
 	return (arr);
 }
 
