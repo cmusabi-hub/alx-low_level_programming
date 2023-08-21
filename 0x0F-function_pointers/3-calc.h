@@ -1,5 +1,7 @@
 #ifndef _3-CALC_H_
 #define _3-CALC_H_
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * struct op - Struct op
