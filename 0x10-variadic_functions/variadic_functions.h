@@ -10,7 +10,7 @@ int _putchar(char c);
 typedef struct print_char
 {
 	char *symbol;
-	void (*f)(va_list arg);
+	void (*f)(va_list);
 } print_arg;
 
 #endif /*_VARIADIC_FUNCTIONS_H_*/
