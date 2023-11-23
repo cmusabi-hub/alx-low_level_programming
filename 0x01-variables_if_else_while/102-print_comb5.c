@@ -1,39 +1,32 @@
 #include <stdio.h>
+int main(void) {
+    int i, j, k, l;
 
-/**
- * main - function
- * Return: 0
- */
+    for (i = 0; i <= 98; i++) {
+        for (j = i + 1; j <= 99; j++) {
+            k = i / 10;
+            l = i % 10;
 
-int main(void)
-{
-	int num_1, num_2, num_3, num_4;
+            putchar(k + '0');
+            putchar(l + '0');
+            putchar(' ');
 
-	for (num_1 = 0; num_1 < 10; num_1++)
-	{
-		for (num_2 = 0; num_2 < 9; num_2++)
-		{
-			for (num_3 = 0; num_3 < 10; num_3++)
-			{
-				for (num_4 = 0; num_4 < 10; num_4++)
-				{
-				
-					putchar(num_1 + '0');
-					putchar(num_2 + '0');
-					putchar(' ');
-					putchar(num_3 + '0');
-					putchar(num_4 + '0');
-					
-					if (!(num_1 == 9 && num_2 == 8 && num_3 == 9 && num_4 == 9))
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
-			}
-		}
-	}
-	putchar('\n');
-	return (0);
+            k = j / 10;
+            l = j % 10;
+
+            putchar(k + '0');
+            putchar(l + '0');
+
+            if (i != 98 || j != 99) {
+                putchar(',');
+                putchar(' ');
+            }
+        }
+    }
+
+    putchar('\n');
+
+    return 0;
+
 }
 
