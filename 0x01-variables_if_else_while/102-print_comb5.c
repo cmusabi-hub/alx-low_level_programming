@@ -13,8 +13,8 @@ int main(void)
 	{
 		for (num_2 = num_1 + 1; num_2 < 100; num_2++)
 		{
-			putchar((num_1 /10) + '0');
-			putchar((num_1 %10) + '0');
+			putchar((num_1 / 10) + '0');
+			putchar((num_1 % 10) + '0');
 			putchar(' ');
 			putchar((num_2 / 10) + '0');
 			putchar((num_2 % 10) + '0');
