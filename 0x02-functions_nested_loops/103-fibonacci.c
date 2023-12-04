@@ -8,20 +8,19 @@
 
 int main(void)
 {
-	int num_1 = 0, num_2 = 1, iterate, sum;
+	int num_1 = 1, num_2 = 2, sum = 0, temp;
 
-	for (iterate = 0; iterate < 10; iterate++)
+	for (num_1 = 0; num_1 <= 4000000; num_1++)
 	{
-		if (!(num_1 % 2 == 0 && num_1 % 3 == 0 && num_1 % 5 == 0))
+		if (num_1 % 2 == 0)
 		{
-			sum = num_1 + num_2;
-			printf("%d", sum);
-			if (iterate < 9)
-				printf(", ");
+			sum += num_1;
 		}
+		temp = num_1 + num_2;
 		num_1 = num_2;
-		num_2 = sum;
+		num_2 = temp;
 	}
+	printf("%d", sum);
 	return (0);
 }
 
