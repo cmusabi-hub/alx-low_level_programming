@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int num_1 = 1, num_2 = 2, sum, iterate;
+	int num_1 = 0, num_2 = 1, sum, iterate;
 
 	for (iterate = 0; iterate < 50; iterate++)
 	{
