@@ -16,7 +16,7 @@ int main(void)
 		sum = num_1 + num_2;
 		num_1 = num_2;
 		num_2 = sum;
-		printf("%ld", sum);
+		printf("%ld", (long)sum);
 		if (iterate < 49)
 			printf(", ");
 	}
