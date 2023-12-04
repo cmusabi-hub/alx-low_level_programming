@@ -3,6 +3,7 @@
 
 /**
  * print_times_table - prints the n times table
+ * @n: parameter tested
  * Return: void
  */
 
