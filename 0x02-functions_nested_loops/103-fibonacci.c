@@ -22,5 +22,6 @@ int main(void)
 		num_1 = num_2;
 		num_2 = sum;
 	}
+	return (0);
 }
 
