@@ -8,7 +8,8 @@
 
 int main(void)
 {
-	int num_1 = 0, num_2 = 1, sum, iterate;
+	long long int num_1 = 0, num_2 = 1, sum; 
+	int iterate;
 
 	for (iterate = 0; iterate < 50; iterate++)
 	{
