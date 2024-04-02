@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - main function
@@ -7,9 +7,14 @@
 
 int main(void)
 {
+	int num;
 	char name[] = "_putchar";
 
-	printf("%s\n", name);
+	for (num = 0; name[num] != '\0'; num++)
+	{
+		_putchar(name[num]);
+	}
+	_putchar('\n');
 	return (0);
 }
 
