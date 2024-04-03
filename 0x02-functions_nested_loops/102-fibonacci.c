@@ -7,15 +7,15 @@
 
 int main(void)
 {
-	int num_1 = 1, num_2 = 2, sum, fibon;
+	unsigned long long int num_1 = 1, num_2 = 2, sum, fibon;
 
-	printf("%d, %d", num_1, num_2);
+	printf("%llu, %llu", num_1, num_2);
 	for (fibon = 2; fibon < 50; fibon++)
 	{
 		sum = num_1 + num_2;
 		num_1 = num_2;
 		num_2 = sum;
-		printf(", %d", sum);
+		printf(", %llu", sum);
 	}
 	printf("\n");
 	return (0);
