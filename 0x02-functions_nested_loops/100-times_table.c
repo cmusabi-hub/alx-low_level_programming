@@ -16,10 +16,10 @@ void print_times_table(int n)
 			for (num_2 = 0; num_2 <= n; num_2++)
 			{
 				mult = num_1 * num_2;
-				printf("%3d", mult);
+				printf("%4d", mult);
 				if (num_2 < n)
 				{
-					printf(", ");
+					printf(",");
 				}
 			}
 			printf("\n");
