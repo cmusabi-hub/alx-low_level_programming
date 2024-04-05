@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	unsigned long int fibon, sum, num_1 = 1, num_2 = 2;
+	unsigned long int fibon, sum, num_1 = 0, num_2 = 1;
 
 	for (fibon = 2; fibon < 98; fibon++)
 	{
