@@ -18,7 +18,7 @@ int main(void)
 		num_2 = sum;
 		if ((sum % 2 == 0))
 		{
-			printf(", %d", sum);
+			printf(", %lu", sum);
 		}
 	}
 	printf("\n");
