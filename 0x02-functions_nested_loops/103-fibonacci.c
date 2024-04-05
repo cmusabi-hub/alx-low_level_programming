@@ -7,8 +7,22 @@
 
 int main(void)
 {
-	int num_1 = 1, num_2 = 2, sum, fibon;
+	unsigned long int num_1 = 1, num_2 = 2, sum, fibon;
 
 	printf("%lu, %lu");
+
+	for (fibon = 2; fibon < 4000000; fibon++)
+	{
+		sum = num_1 + num_2;
+		num_1 = num_2;
+		num_2 = sum;
+		if ((sum % 2 == 0))
+		{
+			printf(", %d", sum);
+		}
+	}
+	printf("\n");
+	return (0);
+	
 }
 
