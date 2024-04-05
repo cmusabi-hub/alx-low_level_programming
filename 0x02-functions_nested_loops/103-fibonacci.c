@@ -9,7 +9,7 @@ int main(void)
 {
 	unsigned long int num_1 = 1, num_2 = 2, sum, fibon;
 
-	printf("%lu, %lu");
+	printf("%lu, %lu", num_1, num_2);
 
 	for (fibon = 2; fibon < 4000000; fibon++)
 	{
