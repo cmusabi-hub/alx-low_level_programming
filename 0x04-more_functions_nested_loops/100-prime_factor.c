@@ -33,6 +33,8 @@ long largestPrimeFactor(long num)
 			largest_prime = prime_num;
 		return (largest_prime);
 	}
+	else
+		return(0);
 }
 /**
  * main - main function
