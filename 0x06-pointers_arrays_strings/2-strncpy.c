@@ -11,13 +11,10 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int index = 0;
 
-	if (src)
+	while ( index < n)
 	{
-		while ( index < n)
-		{
-			dest[index] = src[index];
-			index++;
-		}
+		dest[index] = src[index];
+		index++;
 	}
 	dest[index] = '\0';
 	return (dest);
