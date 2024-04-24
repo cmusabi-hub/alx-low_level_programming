@@ -16,7 +16,10 @@ unsigned int _strspn(char *s, char *accept)
 		for (index_a = 0; accept[index_a] != '\0'; index_a++)
 		{
 			if (s[index_s] == accept[index_a])
+			{
 				found = 1;
+				break;
+			}
 		}
 		if (found == 0)
 			return (count);
