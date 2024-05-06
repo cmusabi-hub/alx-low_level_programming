@@ -12,5 +12,6 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int sqr_root(int n, int square);
+int _prime_num(int n, int num);
 
 #endif /*_MAIN_H_*/
