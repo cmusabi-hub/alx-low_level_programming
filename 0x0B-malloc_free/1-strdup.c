@@ -8,7 +8,7 @@
  */
 char *_strdup(char *str)
 {
-	int size = strlen(str), iter;
+	size_t size = strlen(str), iter;
 	char *char_ptr;
 
 	if (str == NULL)
