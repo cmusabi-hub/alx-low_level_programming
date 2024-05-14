@@ -21,7 +21,7 @@ char *_strdup(char *str)
 	{
 		char_ptr[iter] = str[iter];
 	}
-	char_ptr[size] = '\0';
+	char_ptr[iter] = '\0';
 	return (char_ptr);
 }
 
