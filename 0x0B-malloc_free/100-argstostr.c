@@ -15,15 +15,15 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	for (row = 0; row < ac; row++)
 	{
-		for(column = 0; av[row][column] != '\0'; column++)
+		for (column = 0; av[row][column] != '\0'; column++)
 		{
 			length++;
 		}
 		length++;
 	}
 
-	result = malloc(sizeof(char *) * (length + 1));
-	
+	result = malloc(sizeof(char) * (length + 1));
+
 	if (result == NULL)
 		return (NULL);
 
