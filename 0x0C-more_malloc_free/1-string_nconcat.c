@@ -11,7 +11,12 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *new_string;
-	unsigned int len_s1 = strlen(s1), iter;
+	unsigned int len_s1, iter;
+
+	if (s1 == NULL)
+		len_s1 = 0;
+	else
+		len_s1 = strlen(s1);
 
 	new_string = malloc(len_s1 + n);
 	
