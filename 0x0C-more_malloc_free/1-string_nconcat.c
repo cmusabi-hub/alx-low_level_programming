@@ -26,7 +26,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		new_string[iter] = s1[iter];
 	}
-	if (s2 != NULL)
+	if (s2 == NULL)
+		len_s1 = len_s1 + 1;
+	else
 	{
 		for (iter = 0; iter < n; iter++)
 		{
