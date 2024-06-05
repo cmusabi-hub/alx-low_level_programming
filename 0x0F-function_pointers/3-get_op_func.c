@@ -1,5 +1,6 @@
 #include "3-calc.h"
 #include <stdio.h>
+#include <string.h>
 /**
  * get_op_func - selects correct function to perform required operation
  * @s: pointer to the character
@@ -15,12 +16,11 @@ int (*get_op_func(char *s))(int, int)
         {"%", op_mod},
         {NULL, NULL}
     };
-    int i;
-    i = 0;
+    int i = 0;
 
-    while (ops[i] != NULL)
+    while (ops[i].op != NULL)
     {
-	    if (ops[i].op == s)
+	    if (strcmp(ops[i].op, s) == 0)
 		    return (ops[i].f);
 	    i++;
     }
