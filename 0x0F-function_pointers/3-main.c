@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int (*func_ptr)(int, int);
-	int num_1 = atoi(argv[1]), num_2 = atoi(argv[2]), result;
+	int num_1 = atoi(argv[1]), num_2 = atoi(argv[3]), result;
 
 	if (argc != 4)
 	{
