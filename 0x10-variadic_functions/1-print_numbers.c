@@ -24,6 +24,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		else
 			printf("%d\n", num);
 	}
+	printf("\n");
 	va_end(args);
 }
 
