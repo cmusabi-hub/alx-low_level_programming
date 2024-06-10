@@ -18,7 +18,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		num = va_arg(args, unsigned int);
 
 		if (separator == NULL)
-			continue;
+			printf("%d", num);
 		else if (iter < (n - 1))
 			printf("%d%s", num, separator);
 		else
