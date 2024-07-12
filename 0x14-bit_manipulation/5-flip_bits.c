@@ -4,7 +4,7 @@
  * to flip to get from one number to another
  * @n: value tested
  * @m: value to be flipped to
- * Return number of bits flipped
+ * Return: number of bits flipped
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
